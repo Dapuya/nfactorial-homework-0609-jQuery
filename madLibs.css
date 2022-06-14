@@ -1,0 +1,27 @@
+body {
+    background-color: olivedrab;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.frame {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#storyFrame {
+    display: block;
+}
+
+#story {
+    text-align: center;
+    margin: 0 20%;
+}
+
+p {
+    font-weight: bold;
+}

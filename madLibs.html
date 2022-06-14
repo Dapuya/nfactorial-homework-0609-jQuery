@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad Libs</title>
+  <link rel="stylesheet" href="madLibs.css">
+</head>
+
+<body>
+
+<div class="frame">
+    <div class="content">
+        <h1 id="title">Mad Libs</h1>
+    </div>
+
+    <div class="content">
+        <p class="namesOfInputs">Person name <input class="input" id="personName" type="text" ></p>
+    </div>
+
+    <div class="content">
+        <p class="namesOfInputs">Character <input class="input" id="character" type="text" ></p>
+    </div>
+
+    <div class="content">
+        <p class="namesOfInputs">Adverb <input class="input" id="adverb" type="text"></p>
+    </div>
+
+    <div class="content">
+        <p class="namesOfInputs">Adjective <input class="input" id="adjective" type="text" ></p>
+    </div>
+
+    <div class="content">
+        <button id="tellStoryBtn" type="button">Tell Story</button>
+    </div>
+</div>
+
+<div class="frame" id="storyFrame">
+    <div id="storyTitle"></div>
+    <div id="story"></div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="madLibs.js"></script>
+</body>
+</html>
+
